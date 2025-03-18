@@ -8,7 +8,7 @@ int main() {
     cout << "I have successfully built and run this program." << endl;
     cout << "Developed by: Poorna Pragnya.H" << endl;
     cout << "SRN: PES1UG22CS417" << endl;
-    cout << "Second Commit!!" << endl;
+    cout << "Second Commit!" << endl;
     return 0;
 }
 
