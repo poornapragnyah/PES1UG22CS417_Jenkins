@@ -5,14 +5,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the C++ program...'
-                sh 'g++ -o PES1UG22CS417-1 hello.cpp'
+                make -C main
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Testing the C++ program...'
-                sh './PES1UG22CS417-1'
+                sh './main/hello_exec'
             }
         }
 
